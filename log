@@ -2,3 +2,17 @@ Sat 13 Aug 2022 06:18:01 PM UTC:
  tests:  1|6
 total_score: 10/70
 63623d1
+Sat 13 Aug 2022 06:43:54 PM UTC: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:40:14: error: unused variable ‘vuelta’ [-Werror=unused-variable]
+   40 |   int i = 0, vuelta;
+      |              ^~~~~~
+exercises.c:40:7: error: unused variable ‘i’ [-Werror=unused-variable]
+   40 |   int i = 0, vuelta;
+      |       ^
+cc1: all warnings being treated as errors
+Compilation failed
+9e53529
