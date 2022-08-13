@@ -62,3 +62,18 @@ Sat 13 Aug 2022 07:18:26 PM UTC:
  tests:  3|4
 total_score: 30/70
 fac9bad
+Sat 13 Aug 2022 07:30:49 PM UTC: 
+ exercises.c | 3 +++
+ 1 file changed, 3 insertions(+)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:87:3: error: ‘v’ undeclared (first use in this function)
+   87 |   v -> datos = (int *)calloc(n, sizeof(int));
+      |   ^
+exercises.c:87:3: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:86:12: error: unused variable ‘vec’ [-Werror=unused-variable]
+   86 |   Vector * vec = (Vector*)malloc(sizeof(Vector));
+      |            ^~~
+cc1: all warnings being treated as errors
+Compilation failed
+bfbae3e
