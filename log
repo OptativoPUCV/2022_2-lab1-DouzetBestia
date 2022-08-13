@@ -33,3 +33,14 @@ Sat 13 Aug 2022 06:52:54 PM UTC:
  tests:  2|5
 total_score: 20/70
 9a2811c
+Sat 13 Aug 2022 07:16:10 PM UTC: 
+ exercises.c | 3 +++
+ 1 file changed, 3 insertions(+)
+In file included from test.c:5:
+exercises.c: In function ‘crearPersona’:
+exercises.c:67:10: error: ‘p’ undeclared (first use in this function)
+   67 |   strcpy(p ->rut, rut);
+      |          ^
+exercises.c:67:10: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+f9e1947
