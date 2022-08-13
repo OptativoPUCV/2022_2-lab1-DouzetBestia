@@ -89,3 +89,9 @@ Sat 13 Aug 2022 07:31:47 PM UTC:
  tests:  3|4
 total_score: 30/70
 08b19e9
+Sat 13 Aug 2022 07:32:07 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  4|3
+total_score: 40/70
+c75ca9e
