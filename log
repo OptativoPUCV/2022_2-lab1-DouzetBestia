@@ -77,3 +77,9 @@ exercises.c:86:12: error: unused variable ‘vec’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 bfbae3e
+Sat 13 Aug 2022 07:31:02 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|4
+total_score: 30/70
+5c338ae
