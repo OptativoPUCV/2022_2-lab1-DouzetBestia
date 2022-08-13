@@ -101,3 +101,21 @@ Sat 13 Aug 2022 08:03:16 PM UTC:
  tests:  4|3
 total_score: 40/70
 c6c0eef
+Sat 13 Aug 2022 08:05:06 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘asignarValor’:
+exercises.c:99:4: error: ‘Vector’ has no member named ‘data’
+   99 |   v->data[i] = valor;
+      |    ^~
+exercises.c: In function ‘obtenerValor’:
+exercises.c:109:13: error: ‘Vector’ has no member named ‘data’
+  109 |    return v ->data[i];
+      |             ^~
+exercises.c:110:1: error: control reaches end of non-void function [-Werror=return-type]
+  110 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+828096e
