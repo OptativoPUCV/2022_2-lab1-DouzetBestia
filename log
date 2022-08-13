@@ -16,3 +16,14 @@ exercises.c:40:7: error: unused variable ‘i’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 9e53529
+Sat 13 Aug 2022 06:49:48 PM UTC: 
+ exercises.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+In file included from test.c:5:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:40:14: error: variable ‘vuelta’ set but not used [-Werror=unused-but-set-variable]
+   40 |   int i = 0, vuelta;
+      |              ^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+ebda0fa
