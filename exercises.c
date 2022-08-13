@@ -65,6 +65,7 @@ Persona* crearPersona(char nombre[], char rut[], int edad) {
   Persona * puntero = (Persona *)malloc(sizeof(Persona));
   strcpy(puntero ->nombre, nombre);
   strcpy(puntero ->rut, rut);
+  puntero ->edad = edad;
    return NULL;
 }
 
