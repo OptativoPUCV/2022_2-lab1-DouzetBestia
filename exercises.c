@@ -40,8 +40,10 @@ void sumaNultimos(int a[], int n, int m, int * suma) {
   int i = 0, vuelta;
   for (;i < n/2; i++){
     vuelta = a[i];
-    
+    a[i] = a[n-i-1];
+    a[n-i-1] = vuelta;
   }
+  *suma = sumaN(a,m);
 
 }
 
